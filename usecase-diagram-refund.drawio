@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2026-09-09T00:00:00.000Z" agent="Claude" version="24.7.5" type="device">
+  <diagram name="Use Case - Refund" id="uc-refund">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" value="He thong Quan ly Doi tra &amp; Hoan tien (Refund) - RikkeiShop" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=14;fillColor=none;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="280" y="40" width="780" height="760" as="geometry" /></mxCell>
+        <mxCell id="act_kh" value="Khach hang" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="60" y="140" width="40" height="80" as="geometry" /></mxCell>
+        <mxCell id="act_cskh" value="Nhan vien CSKH" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="60" y="460" width="40" height="80" as="geometry" /></mxCell>
+        <mxCell id="act_shipper" value="Shipper" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="1160" y="140" width="40" height="80" as="geometry" /></mxCell>
+        <mxCell id="act_qc" value="Nhan vien kiem dinh kho (QC)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="1160" y="420" width="40" height="80" as="geometry" /></mxCell>
+        <mxCell id="act_pay" value="He thong Thanh toan
+(Payment Gateway)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="1160" y="700" width="40" height="80" as="geometry" /></mxCell>
+        <mxCell id="uc1" value="Tao yeu cau hoan tien" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="320" y="100" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc2" value="Kiem tra dieu kien doi tra
+(thoi han 7 ngay, bang chung)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="600" y="100" width="240" height="70" as="geometry" /></mxCell>
+        <mxCell id="uc3" value="Duyet yeu cau hoan tien" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="320" y="220" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc4" value="Duyet tu dong nhanh" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1"><mxGeometry x="600" y="220" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc5" value="Tu choi yeu cau" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1"><mxGeometry x="860" y="220" width="200" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc6" value="Dieu phoi Shipper thu hoi hang" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="320" y="340" width="240" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc7" value="Thu hoi hang tai nha khach" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="600" y="340" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc8" value="Kiem dinh hang hoan ve kho" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="320" y="460" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc9" value="Xu ly su co hang hu hong
+do van chuyen (Edge case)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;" vertex="1" parent="1"><mxGeometry x="600" y="460" width="260" height="70" as="geometry" /></mxCell>
+        <mxCell id="uc10" value="Giai ngan hoan tien" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1"><mxGeometry x="320" y="580" width="220" height="60" as="geometry" /></mxCell>
+        <mxCell id="as1" style="endArrow=none;html=1;html=1;" edge="1" parent="1" source="act_kh" target="uc1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="as2" style="endArrow=none;html=1;html=1;" edge="1" parent="1" source="act_kh" target="uc7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="as3" style="endArrow=none;html=1;html=1;" edge="1" parent="1" source="act_cskh" target="uc3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="as4" style="endArrow=none;html=1;html=1;" edge="1" parent="1" source="act_shipper" target="uc7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="as5" style="endArrow=none;html=1;html=1;" edge="1" parent="1" source="act_qc" target="uc8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="as6" style="endArrow=none;html=1;html=1;" edge="1" parent="1" source="act_pay" target="uc10"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r1" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc1" target="uc2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r2" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc1" target="uc3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r3" value="&lt;&lt;extend&gt;&gt;
+(co video hop le)" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc4" target="uc3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r4" value="&lt;&lt;extend&gt;&gt;
+(khong du dieu kien / nghi ngo)" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc5" target="uc3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r5" value="&lt;&lt;include&gt;&gt;
+(sau khi duyet)" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc3" target="uc6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r6" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc6" target="uc7"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r7" value="&lt;&lt;include&gt;&gt;" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc7" target="uc8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r8" value="&lt;&lt;extend&gt;&gt;
+(phat hien hu hong do van chuyen)" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc9" target="uc8"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="r9" value="&lt;&lt;include&gt;&gt;
+(khi hop le)" style="endArrow=open;dashed=1;html=1;fontSize=11;" edge="1" parent="1" source="uc8" target="uc10"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
